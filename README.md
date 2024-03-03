@@ -1,6 +1,6 @@
 # Mobile_Shopping e-Commerce-Website
 
-Welcome to my Online Mobile Shopping app! This application is built using PHP and MySQL, allowing users to browse through a selection of mobile devices, add them to their carts, and make purchases. The shopping cart information is stored in a MySQL database for seamless user experience.
+Welcome to my Online Mobile Shopping app. This application is built using PHP and MySQL, allowing users to browse through a selection of mobile devices, add them to their carts, and make purchases. The shopping cart information is stored in a MySQL database for seamless user experience.
 
 ## Features :-
 
