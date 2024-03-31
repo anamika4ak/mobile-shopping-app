@@ -57,7 +57,7 @@
 
                 <h2>Log In</h2>
 
-                <div class="form">
+                <form class="form">
 
                     <div class="inputBox">
 
@@ -82,7 +82,7 @@
 
                     </div>
 
-                </div>
+                </form>
 
             </div>
 

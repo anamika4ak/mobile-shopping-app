@@ -57,7 +57,7 @@
 
 				<h2>Sign Up</h2>
 
-				<div class="form">
+				<form class="form">
 
 					<div class="inputBox">
 
@@ -96,7 +96,7 @@
 
 					</div>
 
-				</div>
+				</form>
 
 			</div>
 
