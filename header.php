@@ -25,7 +25,7 @@
 
     <?php
     // require functions.php file
-    require('functions.php');
+    require ('functions.php');
     ?>
 
 </head>
@@ -63,6 +63,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#blogs">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/mobile-shopping-app/dashboard/login.php">Login</a>
                     </li>
                 </ul>
                 <form action="#" class="font-size-14 font-rale">

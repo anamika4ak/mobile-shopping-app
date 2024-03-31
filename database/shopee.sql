@@ -93,6 +93,7 @@ CREATE TABLE `wishlist` (
   `item_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+
 --
 -- Indexes for dumped tables
 --
@@ -115,6 +116,7 @@ ALTER TABLE `product`
 ALTER TABLE `user`
   ADD PRIMARY KEY (`user_id`);
 
+-- 
 --
 -- AUTO_INCREMENT for dumped tables
 --
@@ -138,3 +140,45 @@ ALTER TABLE `user`
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
+-- 
+-- 
+-- 
+-- 
+
+
+--
+-- Table structure for table `profiles`
+--
+
+-- CREATE TABLE `profiles` (
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     username VARCHAR(255) NOT NULL,
+--     password VARCHAR(255) NOT NULL
+-- );ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+-- CREATE TABLE `profiles` (
+--   `username` VARCHAR(255) NOT NULL,
+--   `password` VARCHAR(255) NOT NULL
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+-- --
+-- -- Indexes for table `cart`
+-- --
+-- ALTER TABLE `profiles`
+--   ADD PRIMARY KEY (`profile_id`);
+
+
+-- -- AUTO_INCREMENT for table `cart`
+-- --
+-- ALTER TABLE `profiles`
+--   MODIFY `profile_id` int(11) NOT NULL AUTO_INCREMENT;
+
+--   --
+-- -- Dumping data for table `user`
+-- --
+
+-- INSERT INTO `profiles` (`profile_id`, `username`, `password`) VALUES
+-- (1, 'manthan@mk', '12345'),
+-- (2, 'levi@eren', '54321');
